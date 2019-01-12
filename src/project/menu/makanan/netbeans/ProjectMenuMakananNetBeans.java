@@ -44,7 +44,7 @@ public class ProjectMenuMakananNetBeans {
             System.out.println("_____________________________________________");
             System.out.println("Total pembayaran sebesar " + harga + ".");
             System.out.println("Terimakasih atas kunjungannya.");
-            System.out.println("_____________________________________________");
+            System.out.println("*___________________________________________*");
         }
     }
 }
