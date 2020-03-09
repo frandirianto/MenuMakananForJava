@@ -1,14 +1,14 @@
 package main;
 
-public class Siomay extends Food {
+public class Siomay extends Makanan {
 	
-	private Siomay(int price) {
-		setPrice(price);
+	private Siomay(int harga) {
+		setHarga(harga);
 	}
 
 	@Override
-	protected void setPrice(int price) {
-		super.price = price;
+	protected void setHarga(int harga) {
+		super.harga = harga;
 	}
 	
 	public static Siomay getInstance(){

@@ -8,7 +8,7 @@ public class Main {
 
 	public Main() {
 		scan = new Scanner(System.in);	
-		new FoodMenu();
+		new MenuMakanan();
 	}
 
 	public static int ScanInteger() {
@@ -23,12 +23,6 @@ public class Main {
 		return number;
 	}
 	
-	public static char ScanCharacter() {
-		char character = 'a';
-		character = scan.nextLine().charAt(0);
-		return character;
-	}
-
 	public static void main(String[] args) {
 		new Main();
 	}

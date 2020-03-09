@@ -1,14 +1,14 @@
 package main;
 
-public class Bakso extends Food {
+public class Bakso extends Makanan {
 	
-	public Bakso(int price) {
-		setPrice(price);
+	public Bakso(int harga) {
+		setHarga(harga);
 	}
 
 	@Override
-	protected void setPrice(int price) {
-		super.price = price;
+	protected void setHarga(int harga) {
+		super.harga = harga;
 	}
 
 	public static Bakso getInstance(){
