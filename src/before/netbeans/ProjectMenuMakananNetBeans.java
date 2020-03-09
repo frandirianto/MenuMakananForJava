@@ -1,4 +1,4 @@
-package project.menu.makanan.netbeans;
+package before.netbeans;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class ProjectMenuMakananNetBeans {
         System.out.println("No Nama Harga");
         System.out.println("1. Siomay Rp 5000,00");
         System.out.println("2. Batagor Rp 7000,00");
-        System.out.println("3. Bakso Rp 8000,00”");
+        System.out.println("3. Bakso Rp 8000,00â€�");
         System.out.println("");
 
         int harga = 0;
