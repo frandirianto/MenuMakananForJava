@@ -1,4 +1,4 @@
-package main;
+package makanan;
 
 public abstract class Makanan {	
 	

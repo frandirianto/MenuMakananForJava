@@ -1,4 +1,4 @@
-package main;
+package makanan;
 
 public class Siomay extends Makanan {
 	
